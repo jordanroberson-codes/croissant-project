@@ -107,3 +107,11 @@ hr {
 }
 
 /* PHOTO PAGE */
+.croissant-pics {
+  border-color: #885df1 !important;
+  transition: all 150ms ease-in-out;
+}
+
+.croissant-pics:hover {
+  transform: scale(1.2);
+}
