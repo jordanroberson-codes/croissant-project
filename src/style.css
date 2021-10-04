@@ -1,0 +1,107 @@
+:root {
+  --title-font: "Cookie";
+  --second-font: "Voces";
+  --third-font: "JetBrains Mono";
+}
+
+body {
+  background-color: #fffdb5;
+}
+
+/*Index Page*/
+.croissant-title {
+  text-align: center;
+  font-size: 120px;
+  margin-top: 60px;
+  font-family: var(--title-font);
+}
+
+hr {
+  width: 50%;
+  margin: 0 auto;
+  border: 5px solid #885df1;
+  color: black;
+}
+
+.pastry-description {
+  text-align: center;
+  font-style: italic;
+  font-family: var(--second-font);
+}
+
+.subtitles {
+  font-family: var(--title-font);
+  font-size: 40px;
+  text-align: center;
+}
+
+#croissant-pic {
+  border-color: #885df1 !important;
+}
+
+.sub-text-paragraph {
+  font-family: var(--third-font);
+  font-size: 16px;
+}
+
+.croissant-audio {
+  margin-top: -80px !important;
+}
+
+.sub-text-title {
+  font-size: 25px;
+  font-family: var(--third-font);
+  text-align: center;
+}
+
+.column1 p {
+  text-align: center;
+}
+
+#index-main-page-container {
+  background-color: white;
+}
+
+.read-more-btn {
+  background-color: #885df1;
+  border-radius: 10px;
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+}
+.read-more-btn a {
+  color: white;
+  text-decoration: none;
+  font-family: var(--third-font);
+}
+
+.more-link-btn {
+  background-color: #885df1;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.more-link-btn a {
+  color: white;
+  text-decoration: none;
+  font-family: var(--third-font);
+}
+
+.list-content {
+  font-family: var(--third-font);
+}
+
+.video {
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.more-text {
+  font-family: var(--second-font);
+  font-size: 20px;
+}
+.more-text-croissant {
+  font-family: var(--title-font);
+  text-align: center;
+}

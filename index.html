@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Link for Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+
+    <!-- GOOGLE FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Cookie|Voces"
+      rel="stylesheet"
+    />
+
+    <!--Link CSS-->
+    <link rel="stylesheet" href="src/style.css" />
+
+    <title>Croissants</title>
+  </head>
+  <body>
+    <h1 class="croissant-title">Croissants</h1>
+    <hr />
+    <br />
+    <h2 class="pastry-description">
+      "...a buttery, crescent-shaped French pastry"
+    </h2>
+    <br />
+    <div id="index-main-page-container" class="container d-flex flex-1">
+      <div class="row">
+        <div class="col-lg-4 border rounded p-3">
+          <h3 class="subtitles">What is a Croissant?</h3>
+          <div class="row">
+            <div id="column1" class="col-md">
+              <img
+                id="croissant-pic"
+                class="img-fluid rounded-3 border border-5 w-50 mx-auto d-block"
+                src="src/images/croissant.jpg"
+              />
+              <video
+                controls=""
+                name="media"
+                class="croissant-audio d-block m-auto"
+              >
+                <source
+                  src="https://ssl.gstatic.com/dictionary/static/sounds/20200429/croissant--_us_1_rr.mp3"
+                  type="audio/mpeg"
+                />
+              </video>
+              <h3 class="sub-text-title">Croissant</h3>
+              <p class="text-center">/k(r)wäˈsänt,k(r)wäˈsäN/</p>
+
+              <h4 class="sub-text-paragraph">
+                "a buttery, flaky, viennoiserie pastry of Austrian origin, but
+                mostly associated with France. Croissants are named for their
+                historical crescent shape and, like other viennoiserie, are made
+                of a layered yeast-leavened dough."
+              </h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 border rounded p-3">
+          <h3 class="subtitles">Where to buy a Croissant?</h3>
+          <div class="row">
+            <div class="col-md">
+              <iframe
+                id="map"
+                class="w-auto m-auto d-block rounded"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2524.908517910005!2d-81.08536511810254!3d29.284495304587978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e6dca26ddfbcd1%3A0x5528904cfb5aa39a!2sPublix%20Super%20Market%20at%20The%20Trails%20Shopping%20Center!5e0!3m2!1sen!2sus!4v1633275476361!5m2!1sen!2sus"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+              <br />
+              <h4 class="sub-text-paragraph">
+                Croissants are available at any nearby grocery store.
+                Particularly in Florida they are available at Publix, Walmart,
+                Winn-Dixie, Whole Foods, Traders Joes and more! You can also
+                find them at any local bakery or special request that they be
+                made!
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 border rounded p-3">
+          <h3 class="subtitles">How to make a Croissant?</h3>
+          <div class="row">
+            <div class="col-md">
+              <h3 class="sub-text-title">Ingredients</h3>
+              <ul class="list-content">
+                <li>4 cups all-purpose flour</li>
+                <li>1/3 cup granulated sugar</li>
+                <li>4 teaspoons active dry yeast*</li>
+                <li>2 1/4 teaspoons kosher salt</li>
+                <li>1 1/4 cups unsalted butter, cold (2 1/2 sticks)</li>
+                <li>1 cup milk (you may need slightly more or less)</li>
+                <li>
+                  egg wash (1 large egg beaten with a teaspoon or two of water)
+                </li>
+              </ul>
+              <button class="read-more-btn d-flex flex-1">
+                <a
+                  href="https://bakingamoment.com/easy-homemade-croissant-recipe/"
+                  target="_blank"
+                >
+                  Read More Here...</a
+                >
+              </button>
+              <br />
+              <iframe
+                class="video"
+                width="300"
+                height="215"
+                src="https://www.youtube.com/embed/hJxaVD6eAtc"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h2 class="more-text text-center p-3">
+      Here are some links for additional pictures and contact information about
+    </h2>
+    <h1 class="more-text-croissant">Croissants</h1>
+    <div class="containter-btn text-center">
+      <button class="more-link-btn">
+        <a href="photo.html" target="_blank">Pictures</a>
+      </button>
+      <button class="more-link-btn">
+        <a href="contact.html" target="_blank">Contact Us</a>
+      </button>
+    </div>
+    <br />
+    <br />
+    <footer class="text-center">
+      <a href="https://github.com/jordanroberson-codes" target="_blank"
+        >Coded</a
+      >
+      by Jordan Roberson
+    </footer>
+  </body>
+</html>
